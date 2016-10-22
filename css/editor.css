@@ -6,24 +6,24 @@
 *Theme URI :write.josemachava.com
 *Version:0.0.1
 *Date:10/10/2016
-*Tags:AI, Artificial Inteligence, Intelligent System
-*Description::Write is program that allow anyone to write use voice or normal  keyboard
+*Tags:AI, Artificial Intelligence, Intelligent System
+*Description::Write is program that allow anyone to write  a document use voice or normal input  with keyboard
 */
-@import url("fonts.css")
+@import url("../partials/css/fonts.css");
 
 *{
   background-color: #f7f7f7;
 }
-.page{
+#page{
   display: block;
   background-color: #fff;
   margin: auto;
   padding: 30px;
   height: 700px;
   width: 600px;
-  font-family: "Lato";
-	font-weight:400;
-	font-size: 16px;
+  font-family: "Lato", "sans-serif";
+  font-weight:400;
+  font-size: 16px;
   line-height: 22px;
   border: none;
   color: black;

@@ -1,22 +1,9 @@
+"use strict"
 window.onload = function(){
-  "use strict"
-  function count () {
-    var page = document.getElementById('page').value;
-    //var countLetter = page.toString();
-    if(page.includes("Hello hello")){
-        alert('includes')
-    }
-    if(page.search("Hello")){
-      alert(("Hello"));
 
-    }
-
-
-    alert(page.length);
-  }
-
-  var el = document.getElementById('btn');
-  //btn.addEventListener('click', count, true);
-  el.addEventListener("click", count, false);
+    let textarea = "<textarea id='page' class='col-md-12' placeholder='write here'></textarea>"
+    document.body.innerHTML = textarea;
+    var editor = document.getElementById("page");
+    var getValueEditor = editor.value;
 
 }
