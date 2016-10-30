@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 
 window.onload = function () {
@@ -14,9 +14,9 @@ window.onload = function () {
             alert(getValues.trim().length);
         }
 
-    })
+    });
 
-}
+};
 
 
 
