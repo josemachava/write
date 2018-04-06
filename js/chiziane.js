@@ -1,13 +1,13 @@
 "use strict";
 
 
-window.onload = function () {
+window.onload  = () => {
 
-    var editor = document.querySelector("#page");
+    let editor = document.querySelector("#page");
 
-    var save = document.querySelector("#save");
+    let save = document.querySelector("#save");
     save.addEventListener("click", function () {
-        var getValues = editor.value;
+        let  getValues = editor.value;
         if(getValues.length == 0){
             alert("Empty");
         }else {
