@@ -2,10 +2,13 @@
 
 
 window.onload  = () => {
-    const  title = document.createElement("h1");
-    const titleContent = document.createTextNode("chiziane")
-    title.appendChild(titleContent);
-    title.className = "title";
+     function createElement(element, content, className)  {
+        let  createElement = document.createElement(element);
+        let elementContent = document.createTextNode(content)
+        createElement.appendChild(elementContent);
+        createElement.className = className;
+    }
+    let title = createElement("h1", "chiziane", "title");
     let textarea = document.querySelector('textarea');
     document.body.insertBefore(title, textarea);
 
